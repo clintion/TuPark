@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+@keyframes up-right {
+    0% {<!-->
+        transform: scale(1);
+        opacity: .25
+    }
+    50% {
+        transform: scale (1, 5);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: .25;
+    }
+}
+.circle {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    opacity: .25;
+}
+.maroon {
+    background-color: maroon;
+    position: absolute;
+    top: 10%;
+    left: 80%;
+    -webkit-animation: up-right 1s infinite;
+    -moz-animation: up-right 1s infinite;
+    -o-animation: up-right 1s infinite;
+    animation: up-right 1s infinite;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    opacity: .25;
+}
+.green {
+    background-color: green;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    -webkit-animation: up-right 1s infinite;
+    -moz-animation: up-right 1s infinite;
+    -o-animation: up-right 1s infinite;
+    animation: up-right 1s infinite;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    opacity: .25;
+}
+.orange {
+    background-color: orange;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    -webkit-animation: up-right 1s infinite;
+    -moz-animation: up-right 1s infinite;
+    -o-animation: up-right 1s infinite;
+    animation: up-right 1s infinite;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    opacity: .25;
+}
+.blue {
+    background-color: blue;
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    -webkit-animation: up-right 1s infinite;
+    -moz-animation: up-right 1s infinite;
+    -o-animation: up-right 1s infinite;
+    animation: up-right 1s infinite;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    opacity: .25;
+}
+.red {
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    -webkit-animation: up-right 1s infinite;
+    -moz-animation: up-right 1s infinite;
+    -o-animation: up-right 1s infinite;
+    animation: up-right 1s infinite;
+}
+</style>
+</head>
+<body>
+  <div class="circle maroon"> </div>
+</body>
+<body>
+  <div class="circle green"></div>
+</body>
+<body>
+  <div class="circle orange"></div>
+</body>
+<body>
+  <div class="circle blue"> </div>
+</body>
+<body>
+  <div class="circle red"></div>
+</body>
+</html>
