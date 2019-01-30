@@ -3,7 +3,7 @@
 <head>
 <style>
 @keyframes up-right {
-    0% {<!-->
+    0% {<!--clintonnyambatti--!>
         transform: scale(1);
         opacity: .25
     }
